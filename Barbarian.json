@@ -1,0 +1,1871 @@
+{
+  "skills": [
+    {
+      "name": "Bash",
+      "class": "Barbarian",
+      "tags": [
+        "Basic",
+        "Bludgeoning"
+      ],
+      "fury_generate": 10,
+      "lucky_hit": "50%",
+      "filters": [
+        "Stun",
+        "Fortify",
+        "Overpower",
+        "Physical",
+        "Basic",
+        "Bludgeoning",
+        "Two-Handed",
+        "Weapon Mastery",
+        "Critical Strike",
+        "Life",
+        "Fury"
+      ],
+      "description": [
+        "Bash the enemy with your weapon, dealing {value1} damage. After bashing enemies 4 times, your next Bash will Stun for 1.25 seconds, this increases to 2 seconds if using a Two-Handed weapon."
+      ],
+      "extra": [
+        "Physical Damage"
+      ],
+      "value1": [
+        "30%",
+        "33%",
+        "36%",
+        "39%",
+        "42%"
+      ],
+      "runes": [
+        {
+          "name": "Enhanced",
+          "description": [
+            "Damaging a Stunned enemy with Bash grants you 10% Base Life as Fortify. Double this amount when using a Two-Handed weapon."
+          ]
+        },
+        {
+          "name": "Battle",
+          "description": [
+            "Damaging a Stunned enemy with Bash generates an additional 3 Fury, or 4 Fury if using a Two-Handed weapon."
+          ]
+        },
+        {
+          "name": "Combat",
+          "description": [
+            "After Critically Striking 4 times with Bash using a Two-Handed weapon, your next Core or Weapon Mastery Skill will Overpower."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Flay",
+      "class": "Barbarian",
+      "tags": [
+        "Basic"
+      ],
+      "fury_generate": 9,
+      "lucky_hit": "50%",
+      "filters": [
+        "Bleed",
+        "Vulnerable",
+        "Thorns",
+        "Damage Reduction",
+        "Physical",
+        "DoT",
+        "Basic",
+        "Slashing",
+        "Two-Handed"
+      ],
+      "description": [
+        "Flay the enemy, dealing {value1} damage and inflicting {value2} Bleeding damage over 5 seconds."
+      ],
+      "extra": [
+        "Physical Damage",
+        "Requires a Slashing weapon"
+      ],
+      "value1": [
+        "5%",
+        "6%",
+        "6%",
+        "6%",
+        "7%"
+      ],
+      "value2": [
+        "36%",
+        "40%",
+        "43%",
+        "47%",
+        "50%"
+      ],
+      "runes": [
+        {
+          "name": "Enhanced",
+          "description": [
+            "Flay has a 10% chance to make the enemy Vulnerable for 2 seconds. Double this chance when using a Two-Handed weapon."
+          ]
+        },
+        {
+          "name": "Battle",
+          "description": [
+            "When Flay deals direct damage to an enemy, they take x10% increased Bleeding damage from you for the next 3 seconds."
+          ]
+        },
+        {
+          "name": "Combat",
+          "description": [
+            "When Flay deals direct damage to an enemy, you gain 3% Damage Reduction and [X] Thorns for 3 seconds. This stacks up to 4 times."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Frenzy",
+      "class": "Barbarian",
+      "tags": [
+        "Basic",
+        "Dual Wield"
+      ],
+      "fury_generate": 4,
+      "lucky_hit": "30%",
+      "filters": [
+        "Berserking",
+        "Damage Reduction",
+        "Physical",
+        "Basic",
+        "Dual Wield",
+        "Attack Speed",
+        "Fury"
+      ],
+      "description": [
+        "Unleash a rapid flurry of blows, dealing {value1} damage with each pair of hits.",
+        "If Frenzy hits an enemy, its Attack Speed is increased by +20% for 3 seconds, up to +60%."
+      ],
+      "extra": [
+        "Physical Damage",
+        "Requires Dual Wielded weapons"
+      ],
+      "value1": [
+        "20%",
+        "22%",
+        "24%",
+        "26%",
+        "28%"
+      ],
+      "runes": [
+        {
+          "name": "Enhanced",
+          "description": [
+            "While Frenzy is granting +60% bonus Attack Speed, it also generates 2 additional Fury."
+          ]
+        },
+        {
+          "name": "Battle",
+          "description": [
+            "While Berserking, your other skills gain +5% Attack Speed for each stack of Frenzy you have."
+          ]
+        },
+        {
+          "name": "Combat",
+          "description": [
+            "You gain 8% Damage Reduction each stack of Frenzy you currently have."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lunging Strike",
+      "class": "Barbarian",
+      "tags": [
+        "Basic"
+      ],
+      "fury_generate": 9,
+      "lucky_hit": "50%",
+      "filters": [
+        "Bleed",
+        "Berserking",
+        "Heal",
+        "Healthy",
+        "Physical",
+        "Basic",
+        "Two-Handed",
+        "Bludgeoning",
+        "Slashing",
+        "Dual Wield",
+        "One-Handed",
+        "Critical Strike",
+        "Life"
+      ],
+      "description": [
+        "Lunge forward and strike an enemy for {value1} damage."
+      ],
+      "extra": [
+        "Physical Damage",
+        "Requires any complete Arsenal weapon"
+      ],
+      "value1": [
+        "30%",
+        "33%",
+        "36%",
+        "39%",
+        "42%"
+      ],
+      "runes": [
+        {
+          "name": "Enhanced",
+          "description": [
+            "Lunging Strike deals x30% increased damage and Heals you for 2% Maximum Life when it damages a Healthy enemy."
+          ]
+        },
+        {
+          "name": "Battle",
+          "description": [
+            "Lunging Strike also inflicts 20% Bleeding damage over 5 seconds."
+          ]
+        },
+        {
+          "name": "Combat",
+          "description": [
+            "Critical Strikes with Lunging Strike grant you Berserking for 1.5 seconds."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Double Swing",
+      "class": "Barbarian",
+      "tags": [
+        "Core",
+        "Dual Wield"
+      ],
+      "fury_cost": 25,
+      "lucky_hit": "30%",
+      "filters": [
+        "Berserking",
+        "Stun",
+        "Knock Down",
+        "Vulnerable",
+        "Physical",
+        "Core",
+        "Dual Wield",
+        "Fury"
+      ],
+      "description": [
+        "Sweep your weapons from opposite directions, dealing {value1} damage with each weapon. Enemies caught in the center are damaged by both."
+      ],
+      "extra": [
+        "Physical Damage",
+        "Requires Dual Wielded weapons"
+      ],
+      "value1": [
+        "36%",
+        "40%",
+        "43%",
+        "47%",
+        "50%"
+      ],
+      "runes": [
+        {
+          "name": "Enhanced",
+          "description": [
+            "If Double Swing damages a Stunned or Knocked Down enemy, gain 25 Fury."
+          ]
+        },
+        {
+          "name": "Violent",
+          "description": [
+            "Hitting an enemy with both hits of Double Swing makes them Vulnerable for 1 second."
+          ]
+        },
+        {
+          "name": "Furious",
+          "description": [
+            "Casting Double Swing while Berserking grants 2 additional seconds of Berserking."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hammer of the Ancients",
+      "class": "Barbarian",
+      "tags": [
+        "Core",
+        "Bludgeoning"
+      ],
+      "fury_cost": 35,
+      "lucky_hit": "50%",
+      "filters": [
+        "Overpower",
+        "Physical",
+        "Core",
+        "Bludgeoning",
+        "Two-Handed",
+        "Fury"
+      ],
+      "description": [
+        "Slam your hammer down with the fury of the Ancients, dealing {value1} damage to a concentrated area."
+      ],
+      "extra": [
+        "Physical Damage",
+        "Requires a Two-Handed Bludgeoning weapon"
+      ],
+      "value1": [
+        "50%",
+        "55%",
+        "60%",
+        "65%",
+        "70%"
+      ],
+      "runes": [
+        {
+          "name": "Enhanced",
+          "description": [
+            "Gain x3% more Fury for 5 seconds for each enemy damaged by Hammer of the Ancients, stacking up to 10 times."
+          ]
+        },
+        {
+          "name": "Violent",
+          "description": [
+            "After Overpowering with Hammer of the Ancients, you deal x30% more damage for 5 seconds."
+          ]
+        },
+        {
+          "name": "Furious",
+          "description": [
+            "Hammer of the Ancients deals x1% additional damage for each point of Fury you had when using it."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rend",
+      "class": "Barbarian",
+      "tags": [
+        "Core"
+      ],
+      "fury_cost": 35,
+      "lucky_hit": "33%",
+      "filters": [
+        "Bleed",
+        "Vulnerable",
+        "Physical",
+        "DoT",
+        "Core",
+        "Slashing",
+        "Fury"
+      ],
+      "description": [
+        "Cleave enemies in front of you, dealing {value1} damage and inflicting {value2} Bleeding damage over 5 seconds."
+      ],
+      "extra": [
+        "Physical Damage",
+        "Requires a Slashing weapon"
+      ],
+      "value1": [
+        "12%",
+        "13%",
+        "14%",
+        "16%",
+        "17%"
+      ],
+      "value2": [
+        "96%",
+        "106%",
+        "115%",
+        "125%",
+        "134%"
+      ],
+      "runes": [
+        {
+          "name": "Enhanced",
+          "description": [
+            "Dealing direct damage with Rend extends the duration of Vulnerable on enemies by 2 seconds."
+          ]
+        },
+        {
+          "name": "Violent",
+          "description": [
+            "Rend deals x12% increased damage to Vulnerable enemies."
+          ]
+        },
+        {
+          "name": "Furious",
+          "description": [
+            "Direct damage with Rend grants 4 Fury per enemy hit, up to a maximum of 20 Fury."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Upheaval",
+      "class": "Barbarian",
+      "tags": [
+        "Core"
+      ],
+      "fury_cost": 40,
+      "lucky_hit": "20%",
+      "filters": [
+        "Stun",
+        "Berserking",
+        "Physical",
+        "Core",
+        "Two-Handed"
+      ],
+      "description": [
+        "Tear into the ground with your weapon and fling debris forward, dealing {value1} damage."
+      ],
+      "extra": [
+        "Physical Damage",
+        "Requires a Two-Handed weapon"
+      ],
+      "value1": [
+        "70%",
+        "77%",
+        "84%",
+        "91%",
+        "98%"
+      ],
+      "runes": [
+        {
+          "name": "Enhanced",
+          "description": [
+            "Upheaval has a 20% chance to Stun all enemies it damages for 2.5 seconds."
+          ]
+        },
+        {
+          "name": "Violent",
+          "description": [
+            "If Upheaval damages at least 2 enemies, you gain Berserking for 2 seconds, increased to 3 seconds if it damages at least 4 enemies."
+          ]
+        },
+        {
+          "name": "Furious",
+          "description": [
+            "Dealing direct damage to an enemy with a Skill that is not Upheaval causes your next cast of Upheaval to deal x3% increased damage, stacking up to 10 times."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Whirlwind",
+      "class": "Barbarian",
+      "tags": [
+        "Core",
+        "Channeled"
+      ],
+      "fury_cost": "25 per second",
+      "lucky_hit": "25%",
+      "filters": [
+        "Bleed",
+        "Physical",
+        "Core",
+        "Channeled",
+        "Two-Handed",
+        "Bludgeoning",
+        "Slashing",
+        "Dual Wield",
+        "One-Handed",
+        "Fury",
+        "Elite"
+      ],
+      "description": [
+        "Rapidly attack surrounding enemies for {value1} damage."
+      ],
+      "extra": [
+        "Physical Damage",
+        "Requires any complete Arsenal weapon"
+      ],
+      "value1": [
+        "17%",
+        "19%",
+        "21%",
+        "23%",
+        "24%"
+      ],
+      "runes": [
+        {
+          "name": "Enhanced",
+          "description": [
+            "Gain 1 Fury each time Whirlwind deals direct damage to an enemy, or 4 Fury against Elite enemies."
+          ]
+        },
+        {
+          "name": "Violent",
+          "description": [
+            "After using Whirlwind for 2 seconds, Whirlwind deals x30% increased damage until it is cancelled."
+          ]
+        },
+        {
+          "name": "Furious",
+          "description": [
+            "While using a Slashing weapon, Whirlwind also inflicts 40% of its Base damage as Bleeding damage over 5 seconds."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Challenging Shout",
+      "class": "Barbarian",
+      "tags": [
+        "Defensive",
+        "Shout"
+      ],
+      "cooldown": 25,
+      "filters": [
+        "Thorns",
+        "Damage Reduction",
+        "Defensive",
+        "Shout",
+        "Taunt",
+        "Life"
+      ],
+      "description": [
+        "Taunt Nearby enemies and gain {value1} Damage Reduction for 6 seconds."
+      ],
+      "value1": [
+        "40%",
+        "44%",
+        "48%",
+        "52%",
+        "56%"
+      ],
+      "runes": [
+        {
+          "name": "Enhanced",
+          "description": [
+            "While Challenging Shout is active, gain x20% bonus Maximum Life."
+          ]
+        },
+        {
+          "name": "Tactical",
+          "description": [
+            "While Challenging Shout is active, you gain 3 Fury each time you take damage."
+          ]
+        },
+        {
+          "name": "Strategic",
+          "description": [
+            "While Challenging Shout is active, gain Thorns equal to 30% of your Maximum Life."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ground Stomp",
+      "class": "Barbarian",
+      "tags": [
+        "Defensive"
+      ],
+      "cooldown": "{value1}",
+      "filters": [
+        "Stun",
+        "Physical",
+        "Defensive",
+        "Cooldown",
+        "Fury"
+      ],
+      "description": [
+        "Smash the ground, dealing {value2} damage and Stunning surrounding enemies for 3 seconds."
+      ],
+      "extra": [
+        "Physical Damage"
+      ],
+      "value1": [
+        16,
+        15.2,
+        14.4,
+        13.6,
+        12.8
+      ],
+      "value2": [
+        "10%",
+        "10%",
+        "11%",
+        "12%",
+        "13%"
+      ],
+      "runes": [
+        {
+          "name": "Enhanced",
+          "description": [
+            "Increase Ground Stomp's duration by 1 second."
+          ]
+        },
+        {
+          "name": "Tactical",
+          "description": [
+            "Ground Stomp generates 25 Fury."
+          ]
+        },
+        {
+          "name": "Strategic",
+          "description": [
+            "Reduce the Cooldown of your Ultimate Skill by 1 second for each enemy damaged by Ground Stomp."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Iron Skin",
+      "class": "Barbarian",
+      "tags": [
+        "Defensive"
+      ],
+      "cooldown": 14,
+      "filters": [
+        "Barrier",
+        "Fortify",
+        "Heal",
+        "Physical",
+        "Defensive",
+        "Life"
+      ],
+      "description": [
+        "Steel yourself, gaining a Barrier that absorbs {value1} of your missing Life for 5 seconds."
+      ],
+      "extra": [
+        "Physical Damage"
+      ],
+      "value1": [
+        "50%",
+        "55%",
+        "60%",
+        "65%",
+        "70%"
+      ],
+      "runes": [
+        {
+          "name": "Enhanced",
+          "description": [
+            "Iron Skin‘s Barrier absorbs 10% more of your Maximum Life."
+          ]
+        },
+        {
+          "name": "Tactical",
+          "description": [
+            "While Iron Skin is active, Heal for 10% of the Barrier's original amount as Life per second."
+          ]
+        },
+        {
+          "name": "Strategic",
+          "description": [
+            "Iron Skin also grants 15% Base Life as Fortify. Double this amount if cast while below 50% Life."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rallying Cry",
+      "class": "Barbarian",
+      "tags": [
+        "Defensive",
+        "Shout"
+      ],
+      "cooldown": 25,
+      "filters": [
+        "Fortify",
+        "Unstoppable",
+        "Movement Speed",
+        "Physical",
+        "Defensive",
+        "Shout",
+        "Fury",
+        "Life"
+      ],
+      "description": [
+        "Bellow a rallying cry, increasing your Movement Speed by +30% and Resource Generation by x {value1} for 6 seconds, and Nearby allies for 3 seconds."
+      ],
+      "extra": [
+        "Physical Damage"
+      ],
+      "value1": [
+        "40%",
+        "44%",
+        "48%",
+        "52%",
+        "56%"
+      ],
+      "runes": [
+        {
+          "name": "Enhanced",
+          "description": [
+            "Rallying Cry grants you Unstoppable while active."
+          ]
+        },
+        {
+          "name": "Tactical",
+          "description": [
+            "Rallying Cry generates 20 Fury and grants you an additional x20% Resource Generation."
+          ]
+        },
+        {
+          "name": "Strategic",
+          "description": [
+            "Rallying Cry grants you 10% Base Life as Fortify. While Rallying Cry is active, you gain an additional 2% Base Life as Fortify each time you take or deal direct damage."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Charge",
+      "class": "Barbarian",
+      "tags": [
+        "Brawling"
+      ],
+      "cooldown": "{value1}",
+      "lucky_hit": "33%",
+      "filters": [
+        "Stun",
+        "Knock Back",
+        "Vulnerable",
+        "Unstoppable",
+        "Physical",
+        "Brawling",
+        "Two-Handed",
+        "Bludgeoning",
+        "Slashing",
+        "Dual Wield",
+        "One-Handed",
+        "Cooldown"
+      ],
+      "description": [
+        "Become Unstoppable and rush forward, pushing enemies with you and then swinging through them dealing {value2} damage and Knocking them back."
+      ],
+      "extra": [
+        "Physical Damage",
+        "Requires any complete Arsenal weapon"
+      ],
+      "value1": [
+        17,
+        16.15,
+        15.3,
+        14.45,
+        13.6
+      ],
+      "value2": [
+        "25%",
+        "28%",
+        "30%",
+        "32%",
+        "35%"
+      ],
+      "runes": [
+        {
+          "name": "Enhanced",
+          "description": [
+            "Enemies who are Knocked Back into terrain by Charge take 15% damage and are Stunned for 3 seconds."
+          ]
+        },
+        {
+          "name": "Mighty",
+          "description": [
+            "Damaging enemies with Charge makes them Vulnerable for 2 seconds."
+          ]
+        },
+        {
+          "name": "Power",
+          "description": [
+            "Reduce Charge's Cooldown by 3 seconds if it Knocks Back an enemy into terrain."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kick",
+      "class": "Barbarian",
+      "tags": [
+        "Brawling"
+      ],
+      "charge": 2,
+      "charge_cooldown": "{value1}",
+      "lucky_hit": "40%",
+      "filters": [
+        "Stun",
+        "Knock Back",
+        "Vulnerable",
+        "Physical",
+        "Brawling",
+        "Knock Down",
+        "Fury"
+      ],
+      "description": [
+        "Throw a powerful kick that deals 18% damage and Knocks Back enemies in front of you. Enemies who are Knocked Back into terrain take an additional 54% damage and are Stunned for 3 seconds."
+      ],
+      "extra": [
+        "Physical Damage"
+      ],
+      "value1": [
+        17,
+        16.15,
+        15.3,
+        14.45,
+        13.6
+      ],
+      "runes": [
+        {
+          "name": "Enhanced",
+          "description": [
+            "Damaging enemies with Kick makes them Vulnerable for 4 seconds."
+          ]
+        },
+        {
+          "name": "Mighty",
+          "description": [
+            "Kicked enemies deal 54% damage to enemies they collide with while being Knocked Back. Enemies damaged this way are Knocked Down for 2 seconds."
+          ]
+        },
+        {
+          "name": "Power",
+          "description": [
+            "If Kick damages an enemy, it consumes all of your Fury and deals an additional 20% damage per 10 Fury spent. Kick no longer Knocks Back enemies."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Leap",
+      "class": "Barbarian",
+      "tags": [
+        "Brawling"
+      ],
+      "cooldown": "{value1}",
+      "lucky_hit": "66%",
+      "filters": [
+        "Slow",
+        "Knock Back",
+        "Physical",
+        "Brawling",
+        "Two-Handed",
+        "Bludgeoning",
+        "Slashing",
+        "Dual Wield",
+        "One-Handed",
+        "Cooldown",
+        "Fury"
+      ],
+      "description": [
+        "Leap forward and then slam down, dealing {value2} damage and Knocking Back surrounding enemies on impact."
+      ],
+      "extra": [
+        "Physical Damage",
+        "Requires any complete Arsenal weapon"
+      ],
+      "value1": [
+        17,
+        16.15,
+        15.3,
+        14.45,
+        13.6
+      ],
+      "value2": [
+        "33%",
+        "36%",
+        "39%",
+        "42%",
+        "46%"
+      ],
+      "runes": [
+        {
+          "name": "Enhanced",
+          "description": [
+            "If Leap doesn't damage any enemies, its Cooldown is reduced by 4 seconds."
+          ]
+        },
+        {
+          "name": "Mighty",
+          "description": [
+            "Enemies damaged by Leap are Slowed by 50% for 5 seconds."
+          ]
+        },
+        {
+          "name": "Power",
+          "description": [
+            "If Leap damages at least one enemy, gain 40 Fury."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "War Cry",
+      "class": "Barbarian",
+      "tags": [
+        "Brawling",
+        "Shout"
+      ],
+      "cooldown": 25,
+      "filters": [
+        "Fortify",
+        "Berserking",
+        "Brawling",
+        "Shout",
+        "Life"
+      ],
+      "description": [
+        "Bellow a mighty war cry, increasing your damage dealt by x {value1} for 6 seconds, and Nearby allies for 3 seconds."
+      ],
+      "value1": [
+        "15%",
+        "16.5%",
+        "18%",
+        "19.5%",
+        "21%"
+      ],
+      "runes": [
+        {
+          "name": "Enhanced",
+          "description": [
+            "War Cry grants you Berserking for 4 seconds."
+          ]
+        },
+        {
+          "name": "Mighty",
+          "description": [
+            "War Cry grants you 15% Base Life as Fortify."
+          ]
+        },
+        {
+          "name": "Power",
+          "description": [
+            "If at least 6 enemies are Nearby when you cast War Cry, your damage bonus is increased by an additional x10%."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Death Blow",
+      "class": "Barbarian",
+      "tags": [
+        "Weapon Mastery"
+      ],
+      "cooldown": 15,
+      "lucky_hit": "50%",
+      "filters": [
+        "Berserking",
+        "Physical",
+        "Weapon Mastery",
+        "Cooldown",
+        "Two-Handed",
+        "Bludgeoning",
+        "Slashing",
+        "Dual Wield",
+        "One-Handed",
+        "Fury"
+      ],
+      "description": [
+        "Attempt a killing strike, dealing {value1} damage to enemies in front of you.",
+        "If this kills an enemy, its Cooldown is reset."
+      ],
+      "extra": [
+        "Physical Damage",
+        "Requires any complete Arsenal weapon"
+      ],
+      "value1": [
+        "120%",
+        "132%",
+        "144%",
+        "156%",
+        "168%"
+      ],
+      "runes": [
+        {
+          "name": "Enhanced",
+          "description": [
+            "Death Blow deals x100% increased damage to Bosses."
+          ]
+        },
+        {
+          "name": "Warrior's",
+          "description": [
+            "If Death Blow damages at least one enemy, gain Berserking for 3 seconds."
+          ]
+        },
+        {
+          "name": "Fighter's",
+          "description": [
+            "If Death Blow damages at least one enemy, gain 20 Fury."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rupture",
+      "class": "Barbarian",
+      "tags": [
+        "Weapon Mastery"
+      ],
+      "cooldown": "{value1}",
+      "lucky_hit": "50%",
+      "filters": [
+        "Bleed",
+        "Heal",
+        "Physical",
+        "Weapon Mastery",
+        "Slashing",
+        "Attack Speed",
+        "Life"
+      ],
+      "description": [
+        "Skewer enemies in front of you, dealing 13% damage, then rip your weapon out, damaging enemies for their total Bleeding amount and removing all Bleeding damage from them."
+      ],
+      "extra": [
+        "Physical Damage",
+        "Requires a Slashing weapon"
+      ],
+      "value1": [
+        10,
+        9.5,
+        9,
+        8.5,
+        8
+      ],
+      "runes": [
+        {
+          "name": "Enhanced",
+          "description": [
+            "Ripping your weapon out of enemies during Rupture causes an explosion that deals 30% Bleeding damage over 5 seconds."
+          ]
+        },
+        {
+          "name": "Warrior's",
+          "description": [
+            "Hitting enemies with Rupture increases your Attack Speed by +20% for 4 seconds."
+          ]
+        },
+        {
+          "name": "Fighter's",
+          "description": [
+            "Hitting at least 1 enemy with Rupture Heals you for 15% of your Maximum Life."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Steel Grasp",
+      "class": "Barbarian",
+      "tags": [
+        "Weapon Mastery"
+      ],
+      "charge": 2,
+      "charge_cooldown": "{value1}",
+      "lucky_hit": "25%",
+      "filters": [
+        "Berserking",
+        "Vulnerable",
+        "Pull",
+        "Physical",
+        "Weapon Mastery"
+      ],
+      "description": [
+        "Thow out a trio of chains that deal {value2} damage and Pull In enemies."
+      ],
+      "extra": [
+        "Physical Damage"
+      ],
+      "value1": [
+        11,
+        10.45,
+        9.9,
+        9.35,
+        8.8
+      ],
+      "value2": [
+        "23%",
+        "25%",
+        "28%",
+        "30%",
+        "32%"
+      ],
+      "runes": [
+        {
+          "name": "Enhanced",
+          "description": [
+            "Steel Grasp also makes enemies Vulnerable for 2.5 seconds."
+          ]
+        },
+        {
+          "name": "Warrior's",
+          "description": [
+            "Steel Grasp gains 1 additional Charge."
+          ]
+        },
+        {
+          "name": "Fighter's",
+          "description": [
+            "If Steel Grasp damages an enemy, gain Berserking for 2 seconds."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Call of the Ancients",
+      "class": "Barbarian",
+      "tags": [
+        "Ultimate"
+      ],
+      "cooldown": 50,
+      "lucky_hit": "30%",
+      "filters": [
+        "Stun",
+        "Slow",
+        "Ultimate",
+        "Attack Speed",
+        "Fury"
+      ],
+      "description": [
+        "Call upon 3 Ancients to aid you in battle for 6 seconds."
+      ],
+      "description_list": [
+        "Korlic leaps at enemies, dealing 104% damage and swings his weapons in a frenzy, dealing 39% damage per hit.",
+        "Talic spins in a whirlwind rapidly attacking enemies for 65% damage.",
+        "Madawc upheaves the ground, dealing 195% damage."
+      ],
+      "runes": [
+        {
+          "name": "Prime",
+          "description": [
+            "While Call of the Ancients is active, gain +10% bonus Attack Speed and x10% increased damage."
+          ]
+        },
+        {
+          "name": "Supreme",
+          "description": [
+            "Each of the Ancients gains additional power:",
+            "Korlic: You gain 10 Fury each time Korlic damages an enemy with his Frenzy.",
+            "Talic: Enemies are Slowed by 50% for 1 second when damaged by his Whirlwind.",
+            "Madawc: 30% chance to Stun enemies for 3 seconds when using his Upheaval."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Iron Maelstrom",
+      "class": "Barbarian",
+      "tags": [
+        "Ultimate"
+      ],
+      "cooldown": 60,
+      "lucky_hit": "24%",
+      "filters": [
+        "Bleed",
+        "Stun",
+        "Physical",
+        "DoT",
+        "Ultimate",
+        "Two-Handed",
+        "Bludgeoning",
+        "Slashing",
+        "Dual Wield",
+        "One-Handed",
+        "Critical Strike",
+        "Swap",
+        "Cooldown"
+      ],
+      "description": [
+        "Activate three times to attach chains to each of your weapons and perform an attack:"
+      ],
+      "description_list": [
+        "First your Two-Handed Bludgeoning weapon slams into the ground, dealing 60% damage and Stunning enemies for 2 seconds.",
+        "Next, your Two-Handed Slashing weapon swiped in front of you, dealing 20% damage and inflicting 120% Bleeding damage over 5 seconds.",
+        "Finally, your Dual Wield weapons swing around you, dealing 33% damage per hit."
+      ],
+      "extra": [
+        "Physical Damage",
+        "Requires a Full Arsenal of weapons"
+      ],
+      "runes": [
+        {
+          "name": "Prime",
+          "description": [
+            "Iron Maelstrom gains +10% increased Critical Strike Chance and deals x20% increased Critical Strike Damage"
+          ]
+        },
+        {
+          "name": "Supreme",
+          "description": [
+            "Dealing direct damage to an enemy after swapping weapons reduces Iron Maelstrom's Cooldown by 1 second."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Wrath of the Berserker",
+      "class": "Barbarian",
+      "tags": [
+        "Ultimate"
+      ],
+      "cooldown": 60,
+      "filters": [
+        "Berserking",
+        "Unstoppable",
+        "Movement Speed",
+        "Basic",
+        "Two-Handed",
+        "Fury"
+      ],
+      "description": [
+        "Explode into rage, Knocking Back surrounding enemies and gaining Berserking and Unstoppable for 5 seconds. For the next 10 seconds, dealing direct damage with Basic Skills grants Berserking for 5 seconds."
+      ],
+      "runes": [
+        {
+          "name": "Prime",
+          "description": [
+            "While Wrath of the Berserker is active, gain +20% increased Movement Speed and increase Fury Generation by x30%."
+          ]
+        },
+        {
+          "name": "Supreme",
+          "description": [
+            "While Wrath of the Berserker is active, every 50 Fury you spend increases Berserk's damage bonus by x25%."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Aggressive Resistance",
+      "class": "Barbarian",
+      "filters": [
+        "Berserking",
+        "Damage Reduction",
+        "pskill"
+      ],
+      "description": [
+        "Gain {value1} Damage Reduction while Berserking."
+      ],
+      "value1": [
+        "3%",
+        "6%",
+        "9%"
+      ]
+    },
+    {
+      "name": "Battle Fervor",
+      "class": "Barbarian",
+      "filters": [
+        "Berserking",
+        "Brawling",
+        "pskill"
+      ],
+      "description": [
+        "When a Brawling Skill damages at least one enemy, gain Berserking for {value1} seconds."
+      ],
+      "value1": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "Booming Voice",
+      "class": "Barbarian",
+      "filters": [
+        "Shout",
+        "pskill",
+        "Brawling"
+      ],
+      "description": [
+        "Your Shout Skill effect durations are increased by {value1} ."
+      ],
+      "value1": [
+        "8%",
+        "16%",
+        "24%"
+      ]
+    },
+    {
+      "name": "Brute Force",
+      "class": "Barbarian",
+      "filters": [
+        "Overpower",
+        "Two-Handed",
+        "pskill",
+        "Ultimate"
+      ],
+      "dependsOn": ["Wallop", "Heavy Handed"],
+      "description": [
+        "Your Overpowers deal x {value1} increased damage when using a Two-Handed weapon."
+      ],
+      "value1": [
+        "15%",
+        "30%",
+        "45%"
+      ]
+    },
+    {
+      "name": "Concussion",
+      "class": "Barbarian",
+      "filters": [
+        "Stun",
+        "Lucky Hit",
+        "Two-Handed",
+        "Bludgeoning",
+        "pskill",
+        "Ultimate"
+      ],
+      "dependsOn": ["Wallop"],
+      "description": [
+        "Lucky Hit: Skills using Bludgeoning weapons have up to a {value1} chance to Stun enemies for 3 seconds, or up to a {value2} chance when using a Two-Handed Bludgeoning weapon."
+      ],
+      "value1": [
+        "10%",
+        "20%",
+        "30%"
+      ],
+      "value2": [
+        "15%",
+        "30%",
+        "45%"
+      ]
+    },
+    {
+      "name": "Counteroffensive",
+      "class": "Barbarian",
+      "filters": [
+        "Fortify",
+        "Life",
+        "pskill"
+      ],
+      "description": [
+        "While you have Fortify for over 50% of your Maximum Life, you deal x {value1} increased damage."
+      ],
+      "value1": [
+        "4%",
+        "8%",
+        "12%"
+      ]
+    },
+    {
+      "name": "Cut to the Bone",
+      "class": "Barbarian",
+      "filters": [
+        "Bleed",
+        "Vulnerable",
+        "pskill",
+        "Weapon Mastery"
+      ],
+      "dependsOn": [
+        "Hamstring"
+      ],
+      "description": [
+        "Your Bleeding effects deal x {value1} increased damage to Vulnerable enemies."
+      ],
+      "value1": [
+        "6%",
+        "12%",
+        "18%"
+      ]
+    },
+    {
+      "name": "Defensive Stance",
+      "class": "Barbarian",
+      "filters": [
+        "Fortify",
+        "Damage Reduction",
+        "pskill"
+      ],
+      "description": [
+        "Increase the Damage Reduction gained while you are Fortified by an additional + {value1} ."
+      ],
+      "value1": [
+        "2%",
+        "4%",
+        "6%"
+      ]
+    },
+    {
+      "name": "Duelist",
+      "class": "Barbarian",
+      "filters": [
+        "Attack Speed",
+        "One-Handed",
+        "pskill",
+        "Utlimate"
+      ],
+      "description": [
+        "Attack Speed is increased by + {value1} while using One-Handed weapons."
+      ],
+      "value1": [
+        "3%",
+        "6%",
+        "9%"
+      ]
+    },
+    {
+      "name": "Endless Fury",
+      "class": "Barbarian",
+      "filters": [
+        "Two-Handed",
+        "Fury",
+        "pskill",
+        "Core"
+      ],
+      "description": [
+        "Basic Skills generate x {value1} more Fury when using Two-Handed weapons."
+      ],
+      "value1": [
+        "5%",
+        "10%",
+        "15%"
+      ]
+    },
+    {
+      "name": "Expose Vulnerability",
+      "class": "Barbarian",
+      "filters": [
+        "Vulnerable",
+        "Weapon Mastery",
+        "pskill"
+      ],
+      "dependsOn": [
+        "No Mercy",
+        "Slaying Strike"
+      ],
+      "description": [
+        "Dealing direct damage with a Weapon Mastery skill causes your next Core Skill to make enemies Vulnerable for {value1} second."
+      ],
+      "value1": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "Furious Impulse",
+      "class": "Barbarian",
+      "filters": [
+        "Weapon Swap",
+        "Fury",
+        "pskill",
+        "Ultimate"
+      ],
+      "dependsOn": [
+        "Tempered Fury"
+      ],
+      "description": [
+        "Each time you swap weapons, gain {value1} Fury."
+      ],
+      "value1": [
+        2,
+        4,
+        6
+      ]
+    },
+    {
+      "name": "Gushing Wounds",
+      "class": "Barbarian",
+      "filters": [
+        "Bleed",
+        "Overpower",
+        "Critical Strike",
+        "DoT",
+        "pskill",
+        "LaLa"
+      ],
+      "description": [
+        "When causing an enemy to Bleed, you have a chance equal to your Critical Strike Chance to increase the Bleed amount by 100% of your Critical Strike Damage bonus.",
+        "Overpowering a Bleeding enemy creates an explosion that inflicts 11% Bleeding damage over 5 seconds."
+      ]
+    },
+    {
+      "name": "Guttural Yell",
+      "class": "Barbarian",
+      "dependsOn": [
+        "Booming Voice"
+      ],
+      "filters": [
+        "Brawling",
+        "Damage Reduction",
+        "pskill"
+      ],
+      "description": [
+        "Your Shout Skills cause enemies to deal {value1} less damage for 5 seconds."
+      ],
+      "value1": [
+        "4%",
+        "8%",
+        "12%"
+      ]
+    },
+    {
+      "name": "Hamstring",
+      "class": "Barbarian",
+      "filters": [
+        "Bleed",
+        "Slow",
+        "pskill",
+        "Weapon Mastery"
+      ],
+      "description": [
+        "Your Bleeding effects Slow enemies by {value1} ."
+      ],
+      "value1": [
+        "10%",
+        "20%",
+        "30%"
+      ]
+    },
+    {
+      "name": "Heavy Handed",
+      "class": "Barbarian",
+      "filters": [
+        "Critical Strike",
+        "Two-Handed",
+        "pskill",
+        "Ultimate"
+      ],
+      "description": [
+        "While using Two-Handed weapons you deal x {value1} increased Critical Strike Damage."
+      ],
+      "value1": [
+        "5%",
+        "10%",
+        "15%"
+      ]
+    },
+    {
+      "name": "Imposing Presence",
+      "class": "Barbarian",
+      "filters": [
+        "Life",
+        "pskill",
+        "Shout"
+      ],
+      "description": [
+        "Gain x {value1} additional Maximum Life."
+      ],
+      "value1": [
+        "5%",
+        "10%",
+        "15%"
+      ]
+    },
+    {
+      "name": "Invigorating Fury",
+      "class": "Barbarian",
+      "filters": [
+        "Heal",
+        "Life",
+        "Fury",
+        "pskill"
+      ],
+      "dependsOn": ["Tempered Fury"],
+      "description": [
+        "Heal for {value1} of your Maximum Life for each 100 Fury spent."
+      ],
+      "value1": [
+        "3%",
+        "6%",
+        "9%"
+      ]
+    },
+    {
+      "name": "Martial Vigor",
+      "class": "Barbarian",
+      "filters": [
+        "Damage Reduction",
+        "Elite",
+        "pskill",
+        "Shout"
+      ],
+      "dependsOn": [
+        "Imposing Presence"
+      ],
+      "description": [
+        "Damage Reduction against Elites is increased by {value1} ."
+      ],
+      "value1": [
+        "3%",
+        "6%",
+        "9%"
+      ]
+    },
+    {
+      "name": "No Mercy",
+      "class": "Barbarian",
+      "filters": [
+        "Stun",
+        "Slow",
+        "Immobilize",
+        "Critical Strike",
+        "pskill",
+        "Weapon Mastery"
+      ],
+      "dependsOn": [
+        "Pit Fighter"
+      ],
+      "description": [
+        "You have + {value1} increased Critical Strike Chance against Immobilized, Stunned, or Slowed enemies."
+      ],
+      "value1": [
+        "3%",
+        "6%",
+        "9%"
+      ]
+    },
+    {
+      "name": "Outburst",
+      "class": "Barbarian",
+      "filters": [
+        "Thorns",
+        "Life",
+        "pskill",
+        "Shout"
+      ],
+      "description": [
+        "Gain [X] Thorns. Also gain 10 Thorns for each 50 bonus Maximum Life you have."
+      ]
+    },
+    {
+      "name": "Pit Fighter",
+      "class": "Barbarian",
+      "filters": [
+        "Close Enemies",
+        "Damage Reduction",
+        "Distant Enemies",
+        "pskill",
+        "Weapon Mastery"
+      ],
+      "description": [
+        "You deal x {value1} increased damage to Close enemies and gain {value2} Distant Damage Reduction."
+      ],
+      "value1": [
+        "3%",
+        "6%",
+        "9%"
+      ],
+      "value2": [
+        "2%",
+        "4%",
+        "6%"
+      ]
+    },
+    {
+      "name": "Pressure Point",
+      "class": "Barbarian",
+      "filters": [
+        "Vulnerable",
+        "Lucky Hit",
+        "Core",
+        "pskill"
+      ],
+      "description": [
+        "Lucky Hit: Your Core skills have up to a {value1} chance to make enemies Vulnerable for 2 seconds."
+      ],
+      "value1": [
+        "10%",
+        "20%",
+        "30%"
+      ]
+    },
+    {
+      "name": "Prolific Fury",
+      "class": "Barbarian",
+      "filters": [
+        "Berserking",
+        "Fury",
+        "pskill"
+      ],
+      "description": [
+        "While Berserking, Fury Generation is increased by x {value1} ."
+      ],
+      "value1": [
+        "6%",
+        "12%",
+        "18%"
+      ]
+    },
+    {
+      "name": "Quick Impulses",
+      "class": "Barbarian",
+      "filters": [
+        "Crowd Control",
+        "pskill",
+        "Brawling"
+      ],
+      "dependsOn": [
+        "Swiftness"
+      ],
+      "description": [
+        "Reduce the duration of Control Impairing Effects by {value1} ."
+      ],
+      "value1": [
+        "6%",
+        "12%",
+        "18%"
+      ]
+    },
+    {
+      "name": "Raid Leader",
+      "class": "Barbarian",
+      "filters": [
+        "Heal",
+        "Life",
+        "Brawling",
+        "pskill"
+      ],
+      "dependsOn": [
+        "Booming Voice"
+      ],
+      "description": [
+        "Your Shouts also Heal allies for {value1} of their Maximum Life per second."
+      ],
+      "value1": [
+        "1%",
+        "2%",
+        "3%"
+      ]
+    },
+    {
+      "name": "Slaying Strike",
+      "class": "Barbarian",
+      "filters": [
+        "Injured",
+        "pskill",
+        "Weapon Mastery"
+      ],
+      "dependsOn": [
+        "Pit Fighter"
+      ],
+      "description": [
+        "You deal x {value1} increased damage against Injured enemies."
+      ],
+      "value1": [
+        "8%",
+        "16%",
+        "24%"
+      ]
+    },
+    {
+      "name": "Swiftness",
+      "class": "Barbarian",
+      "filters": [
+        "Movement Speed",
+        "pskill",
+        "Brawling"
+      ],
+      "description": [
+        "Movement Speed is increased by + {value1} ."
+      ],
+      "value1": [
+        "4%",
+        "8%",
+        "12%"
+      ]
+    },
+    {
+      "name": "Tempered Fury",
+      "class": "Barbarian",
+      "filters": [
+        "Fury",
+        "pskill",
+        "Ultimate"
+      ],
+      "description": [
+        "Increase your Maximum Fury by {value1} ."
+      ],
+      "value1": [
+        3,
+        6,
+        9
+      ]
+    },
+    {
+      "name": "Thick Skin",
+      "class": "Barbarian",
+      "filters": [
+        "Fortify",
+        "Life",
+        "pskill"
+      ],
+      "description": [
+        "Each time you take direct damage gain {value1} Base Life as Fortify."
+      ],
+      "value1": [
+        "0.4%",
+        "0.8%",
+        "1.2%",
+        "pskill"
+      ]
+    },
+    {
+      "name": "Tough as Nails",
+      "class": "Barbarian",
+      "filters": [
+        "Bleed",
+        "Thorns",
+        "DoT",
+        "pskill",
+        "Shout"
+      ],
+      "dependsOn": [
+        "Outburst"
+      ],
+      "description": [
+        "Increase your Thorns by + {value1} . When enemies hit you, they take an additional 10% of your Thorns as Bleeding damage over 5 seconds."
+      ],
+      "value1": [
+        "3%",
+        "6%",
+        "9%"
+      ]
+    },
+    {
+      "name": "Unbridled Rage",
+      "class": "Barbarian",
+      "filters": [
+        "Core",
+        "Fury",
+        "pskill",
+        "LaLa"
+      ],
+      "description": [
+        "Core Skills deal x135% increased damage, but cost x100% more Fury."
+      ]
+    },
+    {
+      "name": "Unconstrained",
+      "class": "Barbarian",
+      "filters": [
+        "Berserking",
+        "pskill",
+        "LaLa"
+      ],
+      "description": [
+        "Increase Berserk's maximum duration by 5 seconds and increase its damage bonus by +25%."
+      ]
+    },
+    {
+      "name": "Walking Arsenal",
+      "class": "Barbarian",
+      "filters": [
+        "Dual Wield",
+        "Slashing",
+        "Bludgeoning",
+        "Two-Handed",
+        "One-Handed",
+        "pskill",
+        "LaLa"
+      ],
+      "description": [
+        "Dealing direct damage with a Two-Handed Bludgeoning, Two-Handed Slashing, or Dual Wielded weapons grants x10% increased damage for 6 seconds.",
+        "While all three damage bonuses are active, you gain an additional x15% increased damage."
+      ]
+    },
+    {
+      "name": "Wallop",
+      "class": "Barbarian",
+      "filters": [
+        "Stun",
+        "Vulnerable",
+        "Bludgeoning",
+        "pskill",
+        "Ultimate"
+      ],
+      "description": [
+        "Your Skills using Bludgeoning weapons deal x {value1} increased damage if the enemy is Stunned or Vulnerable."
+      ],
+      "value1": [
+        "5%",
+        "10%",
+        "15%"
+      ]
+    }
+  ]
+}
